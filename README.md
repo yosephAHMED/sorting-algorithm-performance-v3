@@ -93,19 +93,18 @@ What to turn in:
 ### Randomized Quick Sort Runtime Performance (ms)
 | Input Size | Reversely Sorted | Sorted | Random Permutation | 50 Instances of Random Input |
 | --- | --- | --- | --- | --- |
-| `100` | 0.2677  | 0.2687 | 0.1318 | 0.134758 |
-| `200` | 0.1204 | 0.1007 | 0.1954 | 0.29601 |
-| `300` | 0.3275 | 0.2803 | 0.4314 | 0.467224 |
-| `400` | 0.351 | 0.3152 | 0.6502 | 0.67704 |
-| `500` | 0.5126 | 0.4678 | 0.9928 | 0.835098 |
-| `1000` | 0.9717 | 0.8417 | 1.8451 | 1.83375 |
-| `4000` | 4.7575 | 4.3365 | 9.9125 | 8.59841 |
-| `10000` | 8.0692 | 7.148 | 25.7332 | 23.4185 |
+| `100` | 0.2333  | 0.2058 | 0.2686 | 0.253484 |
+| `200` | 0.6724 | 0.6392 | 0.5861 | 0.605454 |
+| `300` | 0.9117 | 1.2261 | 1.1532 | 0.913624 |
+| `400` | 1.3649 | 1.2087 | 1.4454 | 1.34524 |
+| `500` | 1.6561 | 1.4883 | 1.9428 | 1.52092 |
+| `1000` | 3.4826 | 3.2343 | 3.7306 | 3.66646 |
+| `4000` | 17.16 | 18.3478 | 17.8196 | 17.4785 |
+| `10000` | 59.4075 | 46.1022 | 32.5325 | 46.5627 |
 
-<a href="https://gist.githubusercontent.com/yosephAHMED/abb13c77c0e2c822312e2bf704de17f2/raw/c20de99e7bba9ef077b4665c8e539d547891a88f/chart%2520(8).svg">
-  <img src="https://gist.githubusercontent.com/yosephAHMED/abb13c77c0e2c822312e2bf704de17f2/raw/c20de99e7bba9ef077b4665c8e539d547891a88f/chart%2520(8).svg">
+<a href="https://gist.githubusercontent.com/yosephAHMED/04edd9d52d43e54b811625c1ce786c53/raw/9cd6c7b54e762bad5980fb17f621bb706a051d10/chart%2520(9).svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/04edd9d52d43e54b811625c1ce786c53/raw/9cd6c7b54e762bad5980fb17f621bb706a051d10/chart%2520(9).svg">
 </a>
-
 
 
 ### Average C approximations for Insertion Sort
@@ -165,5 +164,37 @@ What to turn in:
   <img src="https://gist.githubusercontent.com/yosephAHMED/6b05590c50ed31791b14145f5ec28747/raw/a8996622ef16fddac9e75724b06c6b7e449df031/HeapSortCApprox.svg">
 </a>
 
+### Average C approximations for Quick Sort
+| Input Size | Reversely Sorted | Sorted | Random Permutation | 50 Instances of Random Input |
+| --- | --- | --- | --- | --- |
+| `100` | 0.161 | 0.1361 | 0.2386 | 0.2407 |
+| `200` | 0.08575 | 0.07325 | 0.13445 | 0.133 |
+| `300` | 0.0563333 | 0.0478333 | 0.0909333 | 0.0930778 |
+| `400` | 0.045425 | 0.0391688 | 0.0729375 | 0.0727437 |
+| `500` | 0.033272 | 0.028268 | 0.061572 | 0.0596 |
+| `1000` | 0.017642 | 0.01514 | 0.032954 | 0.032331 |
+| `4000` | 0.00491112 | 0.00428587 | 0.00960181 | 0.00943406 |
+| `10000` | 0.00221306 | 0.00196286 | 0.00409537 | 0.0040829 |
+| --- | --- | --- | --- | --- |
+| **Average** | 0.0508178975 | 0.04325096625 | 0.70671598‬ | 0.0806211825‬ |
+| **Average of averages** | 0.2203515065625‬ |
+
+### Average C approximations for Randomized Quick Sort
+| Input Size | Reversely Sorted | Sorted | Random Permutation | 50 Instances of Random Input |
+| --- | --- | --- | --- | --- |
+| `100` | 0.4 | 0.3412 | 0.3798 | 0.3777 |
+| `200` | 0.234975 | 0.215375 | 0.21595 | 0.222425 |
+| `300` | 0.146089 | 0.140289 | 0.180044 | 0.161756 |
+| `400` | 0.132106 | 0.1247 | 0.1275 | 0.125062 |
+| `500` | 0.102052 | 0.098272 | 0.108248 | 0.106848 |
+| `1000` | 0.056957 | 0.055764  | 0.060221 | 0.059175 |
+| `4000` | 0.0178929 | 0.0183864 | 0.0178167 | 0.0178581 |
+| `10000` | 0.00805436 | 0.00778324 | 0.00765051 | 0.00792856 |
+| --- | --- | --- | --- | --- |
+| **Average** | 0.1372577375 | 0.125221205‬ | 0.13716627625‬ | 0.1347646195‬ |
+| **Average of averages** | 0.53440983825‬ |
+
 ## Conclusion:
-For sorted inputs, it appears that insertion sort is faster than merge sort across all input size (n). Contrary to expecected findings, the results for running performance of Heap Sort is somehow much better than Insertion and Merge sort algorithms. Furthermore, it is found that for Heap Sort, the approximation of C is much larger than that of Insertion and Merge Sort.
+With respect to running time performance, it appears that quick sort is a very efficient sorting algorithm across all input size n.
+According to the results I found in my trial run, the normal quick sort algorithm performed better than the random quick sort algorithm, although other research has shown that a randomly generated pivot can improve the time complexity of Quick sort algorithm. 
+With respect to the C approximation, quick sort algorithm has a very small C approximation in comparison to the other algorithms. In practice, quicksort outperforms merge sort, and it significantly outperforms selection sort and insertion sort.
