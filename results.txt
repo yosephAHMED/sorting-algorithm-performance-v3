@@ -1,0 +1,192 @@
+Input size: 100
+InsertionSort for ReverselySortedInput:           Running Time(ms): 2.042       Steps: 35922                           C= 3.5922                          
+MergeSort for ReverselySortedInput:               Running Time(ms): 1.8823      Steps: 4192                            C= 9.10281                         
+HeapSort for ReverselySortedInput:                Running Time(ms): 0.3769      Steps: 6249                            C= 13.5695                         
+QuickSort for ReverselySortedInput:               Running Time(ms): 0.0821      Steps: 1610                            C= 0.161                           
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 0.2677      Steps: 3695                            C= 0.3695                          
+InsertionSort for SortedInput:                    Running Time(ms): 0.0635      Steps: 298                             C= 0.0298                          
+MergeSort for SortedInput:                        Running Time(ms): 1.8487      Steps: 4708                            C= 10.2233                         
+HeapSort for SortedInput:                         Running Time(ms): 0.4825      Steps: 7613                            C= 16.5314                         
+QuickSort for SortedInput:                        Running Time(ms): 0.0687      Steps: 1361                            C= 0.1361                          
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 0.2687      Steps: 3912                            C= 0.3912                          
+InsertionSort for RandomPermutation:              Running Time(ms): 0.9908      Steps: 16118                           C= 1.6118                          
+MergeSort for RandomPermutation:                  Running Time(ms): 1.9599      Steps: 5393                            C= 11.7108                         
+HeapSort for RandomPermutation:                   Running Time(ms): 0.4387      Steps: 7030                            C= 15.2655                         
+QuickSort for RandomPermutation:                  Running Time(ms): 0.1318      Steps: 2410                            C= 0.241                           
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 0.3177      Steps: 4419                            C= 0.4419                          
+InsertionSort for 50 instances of RandomInput:    Running Time(ms): 1.04478     Steps: 17387                           C= 1.7387                          
+MergeSort for 50 instances of RandomInput:        Running Time(ms): 1.82164     Steps: 5372                            C= 11.6651                         
+HeapSort for 50 instances of RandomInput:         Running Time(ms): 0.416552    Steps: 6928                            C= 15.044                          
+
+QuickSort for 50 instances of RandomInput:        Running Time(ms): 0.134758    Steps: 2416                            C= 0.2416                          
+
+RandomizedQuickSort for 50 instances of RandomInput:Running Time(ms): 0.249198    Steps: 3717                            C= 0.3717                          
+
+Input size: 200
+InsertionSort for ReverselySortedInput:           Running Time(ms): 6.7393      Steps: 139898                          C= 3.49745                         
+MergeSort for ReverselySortedInput:               Running Time(ms): 2.1884      Steps: 9200                            C= 8.682                           
+HeapSort for ReverselySortedInput:                Running Time(ms): 0.5659      Steps: 14389                           C= 13.5788                         
+QuickSort for ReverselySortedInput:               Running Time(ms): 0.1204      Steps: 3430                            C= 0.08575                         
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 0.5076      Steps: 8514                            C= 0.21285                         
+InsertionSort for SortedInput:                    Running Time(ms): 0.038       Steps: 598                             C= 0.01495                         
+MergeSort for SortedInput:                        Running Time(ms): 2.4721      Steps: 10332                           C= 9.75027                         
+HeapSort for SortedInput:                         Running Time(ms): 0.6924      Steps: 17491                           C= 16.5062                         
+QuickSort for SortedInput:                        Running Time(ms): 0.1007      Steps: 2930                            C= 0.07325                         
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 0.4265      Steps: 9781                            C= 0.244525                        
+InsertionSort for RandomPermutation:              Running Time(ms): 2.7402      Steps: 68393                           C= 1.70982                         
+MergeSort for RandomPermutation:                  Running Time(ms): 2.3575      Steps: 12001                           C= 11.3253                         
+HeapSort for RandomPermutation:                   Running Time(ms): 0.8603      Steps: 16182                           C= 15.2709                         
+QuickSort for RandomPermutation:                  Running Time(ms): 0.1954      Steps: 5234                            C= 0.13085                         
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 0.3631      Steps: 9046                            C= 0.22615                         
+InsertionSort for 50 instances of RandomInput:    Running Time(ms): 3.92626     Steps: 70373                           C= 1.75933                         
+MergeSort for 50 instances of RandomInput:        Running Time(ms): 3.40407     Steps: 12059                           C= 11.38                           
+HeapSort for 50 instances of RandomInput:         Running Time(ms): 0.909482    Steps: 16047                           C= 15.1435                         
+
+QuickSort for 50 instances of RandomInput:        Running Time(ms): 0.29601     Steps: 5329                            C= 0.133225                        
+
+RandomizedQuickSort for 50 instances of RandomInput:Running Time(ms): 0.552862    Steps: 8713                            C= 0.217825                        
+
+Input size: 300
+InsertionSort for ReverselySortedInput:           Running Time(ms): 23.432      Steps: 314848                          C= 3.49831                         
+MergeSort for ReverselySortedInput:               Running Time(ms): 6.6273      Steps: 14480                           C= 8.46222                         
+HeapSort for ReverselySortedInput:                Running Time(ms): 1.6014      Steps: 23607                           C= 13.7961                         
+QuickSort for ReverselySortedInput:               Running Time(ms): 0.3275      Steps: 5070                            C= 0.0563333                       
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 1.2439      Steps: 15453                           C= 0.1717                          
+InsertionSort for SortedInput:                    Running Time(ms): 0.0703      Steps: 898                             C= 0.00997778                      
+MergeSort for SortedInput:                        Running Time(ms): 6.9824      Steps: 16300                           C= 9.52584                         
+HeapSort for SortedInput:                         Running Time(ms): 2.0137      Steps: 28183                           C= 16.4704                         
+QuickSort for SortedInput:                        Running Time(ms): 0.2803      Steps: 4305                            C= 0.0478333                       
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 1.1698      Steps: 14549                           C= 0.161656                        
+InsertionSort for RandomPermutation:              Running Time(ms): 10.9429     Steps: 161380                          C= 1.79311                         
+MergeSort for RandomPermutation:                  Running Time(ms): 6.9981      Steps: 19264                           C= 11.258                          
+HeapSort for RandomPermutation:                   Running Time(ms): 2.01        Steps: 25950                           C= 15.1654                         
+QuickSort for RandomPermutation:                  Running Time(ms): 0.4314      Steps: 8264                            C= 0.0918222                       
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 0.8138      Steps: 13789                           C= 0.153211                        
+InsertionSort for 50 instances of RandomInput:    Running Time(ms): 9.05485     Steps: 158039                          C= 1.75599                         
+MergeSort for 50 instances of RandomInput:        Running Time(ms): 5.41722     Steps: 19235                           C= 11.2411                         
+HeapSort for 50 instances of RandomInput:         Running Time(ms): 1.54752     Steps: 26012                           C= 15.2016                         
+
+QuickSort for 50 instances of RandomInput:        Running Time(ms): 0.467224    Steps: 8488                            C= 0.0943111                       
+
+RandomizedQuickSort for 50 instances of RandomInput:Running Time(ms): 0.922232    Steps: 14339                           C= 0.159322                        
+
+Input size: 400
+InsertionSort for ReverselySortedInput:           Running Time(ms): 31.7718     Steps: 559798                          C= 3.49874                         
+MergeSort for ReverselySortedInput:               Running Time(ms): 7.0318      Steps: 20016                           C= 8.35188                         
+HeapSort for ReverselySortedInput:                Running Time(ms): 1.9966      Steps: 33265                           C= 13.8802                         
+QuickSort for ReverselySortedInput:               Running Time(ms): 0.351       Steps: 7268                            C= 0.045425                        
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 1.2796      Steps: 19822                           C= 0.123887                        
+InsertionSort for SortedInput:                    Running Time(ms): 0.0768      Steps: 1198                            C= 0.0074875                       
+MergeSort for SortedInput:                        Running Time(ms): 6.8991      Steps: 22480                           C= 9.38001                         
+HeapSort for SortedInput:                         Running Time(ms): 2.2943      Steps: 39315                           C= 16.4046                         
+QuickSort for SortedInput:                        Running Time(ms): 0.3152      Steps: 6267                            C= 0.0391688                       
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 1.4511      Steps: 22855                           C= 0.142844                        
+InsertionSort for RandomPermutation:              Running Time(ms): 15.2761     Steps: 268507                          C= 1.67817                         
+MergeSort for RandomPermutation:                  Running Time(ms): 7.322       Steps: 26588                           C= 11.0941                         
+HeapSort for RandomPermutation:                   Running Time(ms): 2.1618      Steps: 36576                           C= 15.2617                         
+QuickSort for RandomPermutation:                  Running Time(ms): 0.6502      Steps: 11756                           C= 0.073475                        
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 1.3465      Steps: 20662                           C= 0.129137                        
+InsertionSort for 50 instances of RandomInput:    Running Time(ms): 16.8977     Steps: 280174                          C= 1.75109                         
+MergeSort for 50 instances of RandomInput:        Running Time(ms): 7.75733     Steps: 26728                           C= 11.1525                         
+HeapSort for 50 instances of RandomInput:         Running Time(ms): 2.26278     Steps: 36539                           C= 15.2463                         
+
+QuickSort for 50 instances of RandomInput:        Running Time(ms): 0.67704     Steps: 11655                           C= 0.0728437                       
+
+RandomizedQuickSort for 50 instances of RandomInput:Running Time(ms): 1.31196     Steps: 19655                           C= 0.122844                        
+
+Input size: 500
+InsertionSort for ReverselySortedInput:           Running Time(ms): 48.2394     Steps: 874748                          C= 3.49899                         
+MergeSort for ReverselySortedInput:               Running Time(ms): 10.7816     Steps: 25824                           C= 8.31074                         
+HeapSort for ReverselySortedInput:                Running Time(ms): 3.124       Steps: 43209                           C= 13.9056                         
+QuickSort for ReverselySortedInput:               Running Time(ms): 0.5126      Steps: 8318                            C= 0.033272                        
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 2.1812      Steps: 28416                           C= 0.113664                        
+InsertionSort for SortedInput:                    Running Time(ms): 0.1185      Steps: 1498                            C= 0.005992                        
+MergeSort for SortedInput:                        Running Time(ms): 10.8487     Steps: 28320                           C= 9.11401                         
+HeapSort for SortedInput:                         Running Time(ms): 3.6349      Steps: 50667                           C= 16.3058                         
+QuickSort for SortedInput:                        Running Time(ms): 0.4678      Steps: 7067                            C= 0.028268                        
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 2.1714      Steps: 31280                           C= 0.12512                         
+InsertionSort for RandomPermutation:              Running Time(ms): 27.8103     Steps: 431046                          C= 1.72418                         
+MergeSort for RandomPermutation:                  Running Time(ms): 10.5349     Steps: 34380                           C= 11.0643                         
+HeapSort for RandomPermutation:                   Running Time(ms): 3.227       Steps: 47202                           C= 15.1907                         
+QuickSort for RandomPermutation:                  Running Time(ms): 0.9928      Steps: 15020                           C= 0.06008                         
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 1.8916      Steps: 25033                           C= 0.100132                        
+InsertionSort for 50 instances of RandomInput:    Running Time(ms): 25.6852     Steps: 438542                          C= 1.75417                         
+MergeSort for 50 instances of RandomInput:        Running Time(ms): 9.49773     Steps: 34334                           C= 11.0494                         
+HeapSort for 50 instances of RandomInput:         Running Time(ms): 2.87047     Steps: 47233                           C= 15.2006                         
+
+QuickSort for 50 instances of RandomInput:        Running Time(ms): 0.835098    Steps: 14936                           C= 0.059744                        
+
+RandomizedQuickSort for 50 instances of RandomInput:Running Time(ms): 1.62887     Steps: 25416                           C= 0.101664                        
+
+Input size: 1000
+InsertionSort for ReverselySortedInput:           Running Time(ms): 192.496     Steps: 3499498                         C= 3.4995                          
+MergeSort for ReverselySortedInput:               Running Time(ms): 18.3615     Steps: 55664                           C= 8.05819                         
+HeapSort for ReverselySortedInput:                Running Time(ms): 5.9476      Steps: 96999                           C= 14.042                          
+QuickSort for ReverselySortedInput:               Running Time(ms): 0.9717      Steps: 17642                           C= 0.017642                        
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 4.0261      Steps: 61043                           C= 0.061043                        
+InsertionSort for SortedInput:                    Running Time(ms): 0.2082      Steps: 2998                            C= 0.002998                        
+MergeSort for SortedInput:                        Running Time(ms): 18.4338     Steps: 61156                           C= 8.85324                         
+HeapSort for SortedInput:                         Running Time(ms): 6.8157      Steps: 112311                          C= 16.2587                         
+QuickSort for SortedInput:                        Running Time(ms): 0.8417      Steps: 15140                           C= 0.01514                         
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 3.8687      Steps: 59987                           C= 0.059987                        
+InsertionSort for RandomPermutation:              Running Time(ms): 102.847     Steps: 1787151                         C= 1.78715                         
+MergeSort for RandomPermutation:                  Running Time(ms): 19.297      Steps: 74967                           C= 10.8526                         
+HeapSort for RandomPermutation:                   Running Time(ms): 6.4485      Steps: 105150                          C= 15.222                          
+QuickSort for RandomPermutation:                  Running Time(ms): 1.8451      Steps: 32850                           C= 0.03285                         
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 4.3201      Steps: 68844                           C= 0.068844                        
+InsertionSort for 50 instances of RandomInput:    Running Time(ms): 99.5289     Steps: 1756980                         C= 1.75698                         
+MergeSort for 50 instances of RandomInput:        Running Time(ms): 18.9708     Steps: 75143                           C= 10.8781                         
+HeapSort for 50 instances of RandomInput:         Running Time(ms): 6.376       Steps: 105405                          C= 15.2589                         
+
+QuickSort for 50 instances of RandomInput:        Running Time(ms): 1.83375     Steps: 32450                           C= 0.03245                         
+
+RandomizedQuickSort for 50 instances of RandomInput:Running Time(ms): 3.62217     Steps: 57712                           C= 0.057712                        
+
+Input size: 4000
+InsertionSort for ReverselySortedInput:           Running Time(ms): 2441.16     Steps: 55997998                        C= 3.49987                         
+MergeSort for ReverselySortedInput:               Running Time(ms): 88.3561     Steps: 254704                          C= 7.67731                         
+HeapSort for ReverselySortedInput:                Running Time(ms): 33.4267     Steps: 477819                          C= 14.4025                         
+QuickSort for ReverselySortedInput:               Running Time(ms): 4.7575      Steps: 78578                           C= 0.00491112                      
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 20.9016     Steps: 293181                          C= 0.0183238                       
+InsertionSort for SortedInput:                    Running Time(ms): 0.8561      Steps: 11998                           C= 0.000749875                     
+MergeSort for SortedInput:                        Running Time(ms): 87.4275     Steps: 280672                          C= 8.46004                         
+HeapSort for SortedInput:                         Running Time(ms): 37.8565     Steps: 540585                          C= 16.2944                         
+QuickSort for SortedInput:                        Running Time(ms): 4.3365      Steps: 68574                           C= 0.00428587                      
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 19.8288     Steps: 272837                          C= 0.0170523                       
+InsertionSort for RandomPermutation:              Running Time(ms): 1885.22     Steps: 27943846                        C= 1.74649                         
+MergeSort for RandomPermutation:                  Running Time(ms): 94.0074     Steps: 352725                          C= 10.6319                         
+HeapSort for RandomPermutation:                   Running Time(ms): 35.6227     Steps: 509950                          C= 15.371                          
+QuickSort for RandomPermutation:                  Running Time(ms): 9.9125      Steps: 149687                          C= 0.00935544                      
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 21.4798     Steps: 291678                          C= 0.0182299                       
+InsertionSort for 50 instances of RandomInput:    Running Time(ms): 1557.3      Steps: 27970542                        C= 1.74816                         
+MergeSort for 50 instances of RandomInput:        Running Time(ms): 80.1362     Steps: 352627                          C= 10.6289                         
+HeapSort for 50 instances of RandomInput:         Running Time(ms): 31.1498     Steps: 509361                          C= 15.3532                         
+
+QuickSort for 50 instances of RandomInput:        Running Time(ms): 8.59841     Steps: 150468                          C= 0.00940425                      
+
+RandomizedQuickSort for 50 instances of RandomInput:Running Time(ms): 17.0094     Steps: 278659                          C= 0.0174162                       
+
+Input size: 10000
+InsertionSort for ReverselySortedInput:           Running Time(ms): 19542.6     Steps: 349994998                       C= 3.49995                         
+MergeSort for ReverselySortedInput:               Running Time(ms): 186.699     Steps: 685648                          C= 7.44433                         
+HeapSort for ReverselySortedInput:                Running Time(ms): 53.1503     Steps: 1338679                         C= 14.5345                         
+QuickSort for ReverselySortedInput:               Running Time(ms): 8.0692      Steps: 221306                          C= 0.00221306                      
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 29.8212     Steps: 752737                          C= 0.00752737                      
+InsertionSort for SortedInput:                    Running Time(ms): 1.3452      Steps: 29998                           C= 0.00029998                      
+MergeSort for SortedInput:                        Running Time(ms): 174.522     Steps: 772256                          C= 8.38466                         
+HeapSort for SortedInput:                         Running Time(ms): 59.8258     Steps: 1506539                         C= 16.357                          
+QuickSort for SortedInput:                        Running Time(ms): 7.148       Steps: 196286                          C= 0.00196286                      
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 31.7789     Steps: 805153                          C= 0.00805153                      
+InsertionSort for RandomPermutation:              Running Time(ms): 9811.13     Steps: 175506677                       C= 1.75507                         
+MergeSort for RandomPermutation:                  Running Time(ms): 230.787     Steps: 969647                          C= 10.5278                         
+HeapSort for RandomPermutation:                   Running Time(ms): 107.374     Steps: 1420453                         C= 15.4224                         
+QuickSort for RandomPermutation:                  Running Time(ms): 25.7332     Steps: 414873                          C= 0.00414873                      
+RandomizedQuickSort for ReverselySortedInput:     Running Time(ms): 51.5807     Steps: 791665                          C= 0.00791665                      
+InsertionSort for 50 instances of RandomInput:    Running Time(ms): 9827.73     Steps: 174872479                       C= 1.74872                         
+MergeSort for 50 instances of RandomInput:        Running Time(ms): 203.838     Steps: 970316                          C= 10.5351                         
+HeapSort for 50 instances of RandomInput:         Running Time(ms): 86.5069     Steps: 1420987                         C= 15.4282                         
+
+QuickSort for 50 instances of RandomInput:        Running Time(ms): 23.4185     Steps: 409939                          C= 0.00409939                      
+
+RandomizedQuickSort for 50 instances of RandomInput:Running Time(ms): 45.9759     Steps: 780008                          C= 0.00780008                      
+
