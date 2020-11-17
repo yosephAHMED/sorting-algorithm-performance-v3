@@ -13,6 +13,12 @@ using namespace std;
 // heapSort function prototype
 void heapSort(vector<int>& arr);
 
+// QuickSort function prototype
+void QuickSort(vector<int>& input, int left, int right);
+
+// RandomizedQuickSort function prototype
+void RandomizedQuickSort(vector<int>& arr, int low, int high);
+
 // counter for number of steps per sorting algorithm of input size n
 long long int numSteps = 0;
 
@@ -221,9 +227,42 @@ void testSortingAlgorithms()
     printVector(testVecArr);
     cout << endl << "---------------------------------------" << endl;
 
+    // clear the vector to remove all elements
+    testVecArr.clear();
+
+    testVecArr = { 14, 2, 1, 6, 21, 5 };
+
+    cout << "------------ quicksort ---------------" << endl;
+    cout << "input before: ";
+    printVector(testVecArr);
+    cout << endl;
+
+    QuickSort(testVecArr, 0, testVecArr.size()-1);
+    cout << "input after: ";
+    printVector(testVecArr);
+    cout << endl << "---------------------------------------" << endl;
+
+    // clear the vector to remove all elements
+    testVecArr.clear();
+
+    testVecArr = { 14, 2, 1, 6, 21, 5 };
+
+    cout << "------------ randomized quicksort ---------------" << endl;
+    cout << "input before: ";
+    printVector(testVecArr);
+    cout << endl;
+
+    RandomizedQuickSort(testVecArr, 0, testVecArr.size() - 1);
+    cout << "input after: ";
+    printVector(testVecArr);
+    cout << endl << "---------------------------------------" << endl;
+
     // free the memory taken by vector object
+    testVecArr.clear();
+
     // swap the vector with an empty vector to deallocate memory
     vector<int>().swap(testVecArr);
+
 
     /*
     end of test
@@ -347,6 +386,40 @@ int main()
         // reset numSteps counter to 0
         numSteps = 0;
 
+        // clear vector and initialize
+        vecArr.clear();
+        generateReverselySortedInput(vecArr, inputArr[i]);
+
+        // run quick sort on vecArr and obtain running time
+        t1 = high_resolution_clock::now();
+        QuickSort(vecArr, 0, vecArr.size()-1);
+        t2 = high_resolution_clock::now();
+        runningTime = t2 - t1;
+
+        cApproximation = numSteps / pow(inputArr[i], 2);
+
+        outFile << setw(50) << left << "QuickSort for ReverselySortedInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << runningTime.count() << setw(7) << left << "Steps: " << setw(32) << numSteps << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        // reset numSteps counter to 0
+        numSteps = 0;
+
+        // clear vector and initialize
+        vecArr.clear();
+        generateReverselySortedInput(vecArr, inputArr[i]);
+
+        // run quick sort on vecArr and obtain running time
+        t1 = high_resolution_clock::now();
+        RandomizedQuickSort(vecArr, 0, vecArr.size() - 1);
+        t2 = high_resolution_clock::now();
+        runningTime = t2 - t1;
+
+        cApproximation = numSteps / pow(inputArr[i], 2);
+
+        outFile << setw(50) << left << "RandomizedQuickSort for ReverselySortedInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << runningTime.count() << setw(7) << left << "Steps: " << setw(32) << numSteps << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        // reset numSteps counter to 0
+        numSteps = 0;
+
         // --------------------------------------
         // #INPUT #2: 1, 2, 3, ..n
         vecArr.clear();
@@ -395,6 +468,40 @@ int main()
         cApproximation = numSteps / (inputArr[i] * log(inputArr[i]));
 
         outFile << setw(50) << left << "HeapSort for SortedInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << runningTime.count() << setw(7) << left << "Steps: " << setw(32) << numSteps << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        // reset numSteps counter to 0
+        numSteps = 0;
+
+        // clear vector and initialize
+        vecArr.clear();
+        generateSortedInput(vecArr, inputArr[i]);
+
+        // run quick sort on vecArr and obtain running time
+        t1 = high_resolution_clock::now();
+        QuickSort(vecArr, 0, vecArr.size() - 1);
+        t2 = high_resolution_clock::now();
+        runningTime = t2 - t1;
+
+        cApproximation = numSteps / pow(inputArr[i], 2);
+
+        outFile << setw(50) << left << "QuickSort for SortedInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << runningTime.count() << setw(7) << left << "Steps: " << setw(32) << numSteps << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        // reset numSteps counter to 0
+        numSteps = 0;
+
+        // clear vector and initialize
+        vecArr.clear();
+        generateSortedInput(vecArr, inputArr[i]);
+
+        // run quick sort on vecArr and obtain running time
+        t1 = high_resolution_clock::now();
+        RandomizedQuickSort(vecArr, 0, vecArr.size() - 1);
+        t2 = high_resolution_clock::now();
+        runningTime = t2 - t1;
+
+        cApproximation = numSteps / pow(inputArr[i], 2);
+
+        outFile << setw(50) << left << "RandomizedQuickSort for SortedInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << runningTime.count() << setw(7) << left << "Steps: " << setw(32) << numSteps << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
 
         // reset numSteps counter to 0
         numSteps = 0;
@@ -451,6 +558,40 @@ int main()
         // reset numSteps counter to 0
         numSteps = 0;
 
+        // clear vector and initialize
+        vecArr.clear();
+        generateRandomPermutation(vecArr, inputArr[i]);
+
+        // run quick sort on vecArr and obtain running time
+        t1 = high_resolution_clock::now();
+        QuickSort(vecArr, 0, vecArr.size() - 1);
+        t2 = high_resolution_clock::now();
+        runningTime = t2 - t1;
+
+        cApproximation = numSteps / pow(inputArr[i], 2);
+
+        outFile << setw(50) << left << "QuickSort for RandomPermutation:" << setw(18) << left << "Running Time(ms): " << setw(12) << runningTime.count() << setw(7) << left << "Steps: " << setw(32) << numSteps << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        // reset numSteps counter to 0
+        numSteps = 0;
+
+        // clear vector and initialize
+        vecArr.clear();
+        generateRandomPermutation(vecArr, inputArr[i]);
+
+        // run quick sort on vecArr and obtain running time
+        t1 = high_resolution_clock::now();
+        RandomizedQuickSort(vecArr, 0, vecArr.size() - 1);
+        t2 = high_resolution_clock::now();
+        runningTime = t2 - t1;
+
+        cApproximation = numSteps / pow(inputArr[i], 2);
+
+        outFile << setw(50) << left << "RandomizedQuickSort for RandomPermutation:" << setw(18) << left << "Running Time(ms): " << setw(12) << runningTime.count() << setw(7) << left << "Steps: " << setw(32) << numSteps << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        // reset numSteps counter to 0
+        numSteps = 0;
+
         // --------------------------------------
         // 50 instances of n random numbers generated in the range of [1..n]
         // take average over 50 runs
@@ -461,9 +602,13 @@ int main()
         double tInsertionRT = 0;
         double tMergeRT = 0;
         double tHeapRT = 0;
+        double tQuickRT = 0;
+        double tRandQuickRT = 0;
         long long int iNumSteps = 0;
         long long int mNumSteps = 0;
         long long int hNumSteps = 0;
+        long long int qNumSteps = 0;
+        long long int rqNumSteps = 0;
 
         for (int j = 0; j < 50; j++)
         {
@@ -513,6 +658,38 @@ int main()
 
             // reset numSteps counter to 0
             numSteps = 0;
+
+            // clear vector and initialize
+            vecArr.clear();
+            generateRandomInput(vecArr, inputArr[i]);
+
+            // run quick sort on vecArr and obtain running time
+            t1 = high_resolution_clock::now();
+            QuickSort(vecArr, 0, vecArr.size()-1);
+            t2 = high_resolution_clock::now();
+            runningTime = t2 - t1;
+            tQuickRT = tQuickRT + runningTime.count();
+
+            qNumSteps += numSteps;
+
+            // reset numSteps counter to 0
+            numSteps = 0;
+
+            // clear vector and initialize
+            vecArr.clear();
+            generateRandomInput(vecArr, inputArr[i]);
+
+            // run randomized quick sort on vecArr and obtain running time
+            t1 = high_resolution_clock::now();
+            RandomizedQuickSort(vecArr, 0, vecArr.size() - 1);
+            t2 = high_resolution_clock::now();
+            runningTime = t2 - t1;
+            tRandQuickRT = tRandQuickRT + runningTime.count();
+
+            rqNumSteps += numSteps;
+
+            // reset numSteps counter to 0
+            numSteps = 0;
         }
 
         cApproximation = (iNumSteps / 50) / pow(inputArr[i], 2);
@@ -522,7 +699,13 @@ int main()
         outFile << setw(50) << left << "MergeSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tMergeRT / 50 << setw(7) << left << "Steps: " << setw(32) << mNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
 
         cApproximation = (hNumSteps / 50) / (inputArr[i] * log(inputArr[i]));
-        outFile << setw(50) << left << "HeapSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tHeapRT / 50 << setw(7) << left << "Steps: " << setw(32) << hNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl << endl;
+        outFile << setw(50) << left << "HeapSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tHeapRT / 50 << setw(7) << left << "Steps: " << setw(32) << hNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        cApproximation = (qNumSteps / 50) / pow(inputArr[i], 2);
+        outFile << setw(50) << left << "QuickSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tQuickRT / 50 << setw(7) << left << "Steps: " << setw(32) << qNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        cApproximation = (rqNumSteps / 50) / pow(inputArr[i], 2);
+        outFile << setw(50) << left << "RandomizedQuickSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tRandQuickRT / 50 << setw(7) << left << "Steps: " << setw(32) << rqNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl << endl;
 
         vecArr.clear();
     }
